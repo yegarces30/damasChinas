@@ -1,0 +1,79 @@
+#contenedor{
+  width: 100%;
+}
+#tablero{
+  width: 70%;
+  float: left;
+  text-align:center;
+  vertical-align:middle;
+}
+.fondo{
+  width: 480px;
+  height: 540px;
+  border: 1px solid black;
+  margin-left: 10%;
+  padding: 0px;
+}
+
+.titulo{
+  font-size: 30px;
+  margin-left: 50%;
+}
+
+.imgFicha{
+  width: 10%;
+}
+
+.celda{
+  width: 58px;
+  height: 58px;
+  padding: 0px;
+  margin: 0px;
+  border: 1px solid black;
+  float: left;
+  text-align:center;
+  vertical-align:middle;
+  line-height: 58px;
+}
+
+.celda:hover{
+  border: 1px solid red;
+}
+
+.negro{
+  background-color: black;
+}
+
+.blanco{
+  background-color: white;
+}
+
+img{
+  vertical-align:middle;
+}
+
+.panel-score{
+  width: 25%;
+  height: 700px;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.data-titulo{
+  font-family: gameFont;
+}
+
+.data-info{
+  font-family: gameFont;
+  font-size: 40px;
+}
+
+.score, .moves{
+  text-align: center;
+  height: 23%;
+  width: 100%;
+  border: 10px solid #E87306;
+  border-radius: 5px;
+  background: rgba(232, 115, 6, 0.5);
+  margin-bottom: 10px;
+}
